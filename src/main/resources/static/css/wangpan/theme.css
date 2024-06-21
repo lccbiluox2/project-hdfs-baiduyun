@@ -1,0 +1,155 @@
+a{
+	TEXT-DECORATION:none
+}
+
+body{
+	width:100%;
+	height:100%;
+}
+#body{
+	width:1200px;
+	background:green;
+	margin:0 auto;
+}
+#top{
+	width:100%;
+	height:40px;
+	float:left;
+	background:#3D3681;
+}
+.top_item{
+	width:10%;
+	height:40px;
+	float:left;
+	color:#FFFFFF;
+	font:20px;
+	line-height:40px;
+	font-weight:900;
+	display:block;
+	cursor:pointer;
+	text-align:center;
+}
+.top_item:hover{
+	background:#645D9B;
+}
+.top_item img{
+	height:100%;
+}
+#left{
+	width:20%;
+	height:800px;
+	float:left;
+	background: linear-gradient(#493C81, #D88776); 
+}
+.left_item1{
+	width:100%;
+	height:30px;
+	float:left;
+	text-align:center;
+	color:#FFFFFF;
+	display:block;
+	cursor:pointer;
+	font-weight:900;
+}
+.left_item1:hover{
+	background:#645D9B;
+}
+.left_item2{
+	width:100%;
+	height:30px;
+	float:left;
+	text-align:center;
+	color:#FFFFFF;
+	display:block;
+	cursor:pointer;
+	font-weight:900;
+}
+.left_item2:hover{
+	background:#645D9B;
+}
+#content{
+	width:80%;
+	float:left;
+	background:#FFFFFF;
+}
+.caozuo{
+	width:100%;
+	height:40px;
+	float:left;
+}
+.caozuo_item{
+	width:100px;
+	height:30px;
+	float:left;
+	background:#3D3681;
+	margin-left:10px;
+	margin-top:4px;
+	border:1px solid #3D3681;
+	text-align:center;
+	line-height:30px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:15px;
+}
+.caozuo_item a{
+	width:100px;
+	height:30px;
+	color:#FFFFFF;
+	line-height:30px;
+	text-decoration: none;
+	display:block;
+}
+.caozuo_item:hover{
+	background:#645D9B;
+}
+.show{
+	width:100%;
+	float:left;
+}
+.form{
+	display:none;
+	width:100%;
+	float:left;
+	height:40px;
+}
+.form_text{
+	width:200px;
+	height:30px;
+}
+.form_bt{
+	width:30px;
+	height:30px;
+}
+
+
+
+
+.show_item{
+	width:100%;
+	float:left;
+}
+.show_item table{
+	width:100%;
+}
+.show_item table tr{
+	width:100%;
+}
+.show_item table tr:hover{
+	background:#F6FAFF;
+}
+.show_item table tr td{
+	height:50px;
+
+	border-top:2px solid #F2F6FD;
+}
+.folder_img{
+	width:50px;
+	height:50px;
+}
+.folder_img img{
+	width:40px;
+	height:30px;
+}
+.folder_name{
+	width:400px;
+	line-height:10px;
+}
